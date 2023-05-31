@@ -49,12 +49,9 @@ export const Hero = styled.h1`
   ${genericHeadingStyle}
   ${level1}
 
-  line-height: 100%;
   margin-bottom: 64px;
 
   @media screen and (max-width: 853px) {
-    /* line-height: 110%;
-    margin-bottom: 24px; */
     display: none;
   }
 `
@@ -100,7 +97,6 @@ export const List = styled.ul`
 export const Link = styled.a`
   ${level8}
 
-  line-height: 160%;
   font-weight: 400;
   color: #004699;
   text-decoration: none;

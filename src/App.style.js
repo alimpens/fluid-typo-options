@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Wrapper = styled.div`
-  max-width: 1920px;
+  max-width: 1504px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
