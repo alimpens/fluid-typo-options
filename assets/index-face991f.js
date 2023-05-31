@@ -60,49 +60,57 @@ Error generating stack: `+l.message+`
       ${l}rem + ${o-l} * (100vw - ${u}rem) / ${a-u},
       ${o}rem
     )`},Xh=Qe`
-  font-size: ${je(75,96,854,1920)};
+  font-size: ${je(64,80,854,1440)};
+  line-height: 110%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(32,75,320,853)};
+    font-size: ${je(32,64,320,853)};
   }
 `,Zh=Qe`
-  font-size: ${je(59,72,854,1920)};
+  font-size: ${je(48,56,854,1440)};
+  line-height: 120%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(32,59,320,853)};
+    font-size: ${je(32,48,320,853)};
   }
 `,Jh=Qe`
-  font-size: ${je(41,48,854,1920)};
+  font-size: ${je(36,40,854,1440)};
+  line-height: 130%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(28,41,320,853)};
+    font-size: ${je(28,36,320,853)};
   }
 `,kf=Qe`
-  font-size: ${je(35,40,854,1920)};
+  font-size: ${je(29,32,854,1440)};
+  line-height: 140%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(24,35,320,853)};
+    font-size: ${je(24,29,320,853)};
   }
 `,qh=Qe`
-  font-size: ${je(29,32,854,1920)};
+  font-size: ${je(26,28,854,1440)};
+  line-height: 150%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(22,29,320,853)};
+    font-size: ${je(22,26,320,853)};
   }
 `,bh=Qe`
-  font-size: ${je(25,28,854,1920)};
+  font-size: ${je(23,25,854,1440)};
+  line-height: 140%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(20,25,320,853)};
+    font-size: ${je(20,23,320,853)};
   }
 `,eg=Qe`
-  font-size: ${je(23,26,854,1920)};
+  font-size: ${je(21,22,854,1440)};
+  line-height: 160%;
 
   @media screen and (max-width: 853px) {
-    font-size: ${je(18,23,320,853)};
+    font-size: ${je(18,21,320,853)};
   }
 `,Ca=Qe`
-  font-size: ${je(17,18,854,1920)};
+  font-size: ${je(17,18,854,1440)};
+  line-height: 160%;
 
   @media screen and (max-width: 853px) {
     font-size: ${je(16,17,320,853)};
@@ -141,55 +149,45 @@ Error generating stack: `+l.message+`
   ${Yr}
   ${Zh}
 
-  line-height: 100%;
   margin-bottom: 40px;
 
   @media screen and (max-width: 853px) {
-    line-height: 110%;
     margin-bottom: 24px;
   }
 `,rg=U.h1`
   ${Yr}
   ${Jh}
 
-  line-height: 100%;
   margin-bottom: 40px;
 
   @media screen and (max-width: 853px) {
-    line-height: 110%;
     margin-bottom: 24px;
   }
 `,Sf=U.h1`
   ${Yr}
   ${kf}
 
-  line-height: 100%;
   margin-bottom: 40px;
 
   @media screen and (max-width: 853px) {
-    line-height: 110%;
     margin-bottom: 24px;
   }
 `,_t=U.h1`
   ${Yr}
   ${bh}
 
-  line-height: 100%;
   margin-bottom: 40px;
 
   @media screen and (max-width: 853px) {
-    line-height: 110%;
     margin-bottom: 24px;
   }
 `,ig=U.p`
   ${_a}
   ${qh}
 
-  line-height: 150%;
   margin-bottom: 80px;
 
   @media screen and (max-width: 853px) {
-    line-height: 160%;
     margin-bottom: 56px;
   }
 `,zi=U.p`
@@ -197,13 +195,11 @@ Error generating stack: `+l.message+`
   ${eg}
 
   margin-bottom: 40px;
-  line-height: 160%;
 `,Yn=U.p`
   ${_a}
   ${Ca}
 
   margin-bottom: 40px;
-  line-height: 160%;
 `,lg=U.blockquote`
   ${kf}
 
@@ -211,7 +207,6 @@ Error generating stack: `+l.message+`
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
   margin-bottom: 40px;
-  line-height: 110%;
   font-weight: 800;
   font-style: italic;
   quotes: '“' '”';
@@ -265,12 +260,9 @@ Error generating stack: `+l.message+`
   ${Yr}
   ${Xh}
 
-  line-height: 100%;
   margin-bottom: 64px;
 
   @media screen and (max-width: 853px) {
-    /* line-height: 110%;
-    margin-bottom: 24px; */
     display: none;
   }
 `,cg=U.div`
@@ -304,7 +296,6 @@ Error generating stack: `+l.message+`
 `,wn=U.a`
   ${Ca}
 
-  line-height: 160%;
   font-weight: 400;
   color: #004699;
   text-decoration: none;
@@ -441,7 +432,7 @@ Error generating stack: `+l.message+`
     margin: 0;
   }
 `,Rg=U.div`
-  max-width: 1920px;
+  max-width: 1504px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
